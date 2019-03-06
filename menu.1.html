@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>FAT SALAD WRAPS</title>
+    <link href="Home.1.css" rel="stylesheet"> 
+   
+    <!--Attempting multiple sheets -->
+</head>
+
+<body>
+    
+    <header>
+        <div class="topheader"> FAT SALAD WRAPS <div>
+        
+        <!--Let's say I want to put a background image in later? Salad or News-->
+      
+
+    <div class="subheader">
+        <nav>
+            <a href="Home.1.html">Home</a>
+            <a href="menu.1.html">Menu</a>
+            <a href="#">Locations</a>
+            <a href="#">Special Offers</a>
+            <a href="contactus.html">Contacts Us</a>  
+        </nav>        
+    </header>
+    
+    
+<div class="movedown" >
+<div class="label">MENU</div>
+
+<section class="line"></section>
+
+<h1 class="localfav">Local Favorites:</h1>
+
+<div class=mainmenu>
+
+    <div class= "bimg" id="fistimage">
+        <p>BIG GREEN NATION</p><br>   
+        <img src="bowlofsalad.jpg" ><br>
+        <form action="menu.1.html" method="get">
+         <button type="button" id="mainselection"onclick="mainMenuFunction('BIG GREEN NATION')">$9.99</button> 
+         </form>
+    </div> 
+        
+    <div class="bimg">
+        <p>TOMATO PARADISE</p><br>    
+        <img src="bowlofsalad.jpg" ><br>
+        <form action="menu.1.html" method="get">
+        <button type="button" id="mainselection" onclick="mainMenuFunction('TOMATO PARADISE')">$9.99</button> 
+        </form>     
+    </div>
+
+    <div class="bimg">
+        <p>CABBAGE PATCH COMBO</p><br>   
+        <img src="bowlofsalad.jpg" ><br>
+        <form action="menu.1.html" method="get"></form>
+        <button type="button" id="mainselection" onclick="mainMenuFunction('CABBAGE PATCH COMBO')">$9.99</button>         
+    </div>
+        
+    <div class="bimg">
+        <p>FRUITY BOOTY</p><br>
+        <img src="bowlofsalad.jpg" ><br>
+        <form action="menu.1.html" method="get">
+        <button type="button" id="fruitybooty" onclick="FruityBootyFunction('Fruity Booty')" >$9.99</button> 
+        </form>       
+    </div>
+  
+
+    <script src="special.js"></script>
+   <!--- <form>
+        <input type = "button" value = "Click Me" onclick = "getValue();" />
+     </form>  
+     
+     <button type="button" id="put" onclick="click()">Insert data</button>
+
+     
+    -->
+
+</div>
+
+<section class="line"></section>
+
+<div class="label"></div>
+
+<section class="line"></section>
+
+<h1 class="localfav">Create Your Own:</h1>
+   
+<div class="create">
+
+<div class="l" id="crpara">
+    <h3>Sign Up and Create Your Own!</h3>   
+    <p style="margin-bottom:10px;"></p>
+        Customer's that are on our email list can make a custom salad or wrap. 
+        All salads are stored in the user's accounts 
+        so that they can be retrieved.  Get Creative! <br> <br>Call if you have 
+        any questions <br><br>
+        <a style='font-size:25px;'>502-758-7398</a></p>
+</div>
+
+<div class="l" id="creatimg">
+
+    <div class="middlecreateown">
+    <p id="needtomove"> Get Creative!</p>
+    <img id="emptybowl" src="bowlofsalad2.jpg">
+    <output>Total Here</output>
+    <p>$</p>
+    </div>
+
+</div>
+    
+<div class="l"> 
+    <div class=layered>
+    <div class="outerbox"> </div>
+    <div class="checkboxlist">
+        <h4>Select Your Ingredients:</h4>
+        <form action="menu.1.html" method="get">
+        <input type="checkbox" name="Lettuce"onclick="document.getElementById('emptybowl').src='menusalad1.jpg'" >Lettuce</input>
+        <input type="checkbox" name="XLettuce" onclick="document.getElementById('emptybowl').src='menusalad2.jpg'">Extra Lettuce</input><br><br>
+        <input type="checkbox" name="Onions" onclick="document.getElementById('emptybowl').src='menusalad3.jpg'" >Onions</input>
+        <input type="checkbox" name= "xOnions" onclick="document.getElementById('emptybowl').src='menusalad4.jpg'">Extra Onions</input><br><br>
+        <input type="checkbox" name="Cheese" onclick="document.getElementById('emptybowl').src='menusalad5.jpg'">Cheese</input>
+        <input type="checkbox" name= "xCheese" onclick="document.getElementById('emptybowl').src='menusalad6.jpg'">Extra Cheese</input><br><br>
+        <input type="checkbox" name= "Tomato"onclick="document.getElementById('emptybowl').src='menusalad1.jpg'">Tomato</input>
+        <input type="checkbox" name="XTomato"onclick="document.getElementById('emptybowl').src='menusalad8.jpg'">Extra Tomato</input><br><br>
+        <input type="checkbox" name="Carrot"onclick="document.getElementById('emptybowl').src='bowlofsalad.jpg'">Carrots</input>
+        <input type="checkbox" name="xCarrot"onclick="document.getElementById('emptybowl').src='bowlofsalad2.jpg'">Extra Carrots</input><br><br>
+        <h4>Dressig and Crunch:</h4>
+        <input type="checkbox" name= "FriedOnions"onclick="document.getElementById('emptybowl').src='menusalad1.jpg'">Fried Onions</input>
+        <input type="checkbox" name="ThaiGinger"onclick="document.getElementById('emptybowl').src='menusalad2.jpg'">Thai Ginger</input><br><br>
+        <input type="checkbox" name= "French"onclick="document.getElementById('emptybowl').src='menusalad3.jpg'">French</input>
+        <input type="checkbox" name= "BlueCheese"onclick="document.getElementById('emptybowl').src='menusalad4.jpg'">Blue Cheese</input>
+        </form>
+    </div>
+    </div>
+        
+</div>
+
+</div>
+
+<section class="line"></section>
+
+<div class="menubottom">
+
+<h2>Subtotal</h2>
+     
+<section class="line"></section>
+
+<div class="delivery">
+<h2>Delivery or Pickup?</h2>
+<form>
+        <input type="radio" name= "Delivery" >Delivery</input>
+        <input type="radio" name= "Pick Up">Pick Up</input> 
+</form>
+
+
+</div>
+
+<section class="line"></section>
+
+<h2>Tax</h2>
+
+<section class="line"></section>
+
+<h2>Total</h2>
+
+<section class="line"></section>
+
+<section class="line"></section>
+
+<div class="label"></div>
+
+<section class="line"></section>
+
+</div> 
+
+
+</div>
+
+<footer>
+        <script src="special.js"></script>
+
+    <section class="footer" >
+    FACEBOOK TWITTER INSTAGRAM <br>
+    Copyright All Rights Reserved © 2019 FAT SALAD WRAPS
+    </section> 
+        
+</footer>
+
+
+
+
+
+
+</body>
+
+</html>
