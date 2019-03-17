@@ -3,7 +3,141 @@
     padding:0;
 }  
 
+.topheader {
+    
+    font-size: 80px;
+    background:green;
+    
+    text-align: center;
+    height:65px;
+    font-weight: 1500px;
+
+    font-family: arial;
+
+    word-spacing:24px;
+    width:100%;
+    text-decoration: bold;
+}
+
+
+.subheader { 
+
+    top: 110px; 
+    font-size: 80px;
+    background:green;
+    margin-top:40px;
+    padding:0;
+    text-align: center;
+    height: 60px;
+  
+    font-stretch: ultra-expanded;
+    word-spacing:20px;
+    
+    width:100%;
+}
+
+
+header {
+    
+    font-size: 90px;
+    background:green;
+    margin:0;
+    padding:0;
+    text-align: center;
+    height: 100;
+    font-weight: 1500px;
+   
+    font-family: arial;
+    font-stretch: ultra-expanded;
+    word-spacing:24px;
+
+}
+
+
+
+
+  /* How to the first letter on the nav words highlight */
+
+nav {
+    font-size: 32px;
+    font-weight: 550;
+    text-align: center;
+    background:green;
+    word-spacing: 7px;
+    padding:20px;
+    line-height: 40px;
+    }
+
+a { 
+    color: green;
+    width:100%;
+    padding:15px 1px 1px 5px;
+    text-align: center;
+    font-family: Times New Roman;
+    font-weight: 900;
+    text-decoration-line: underline;
+    font-size: 35px;  
+    }
+
+
+    a:link, a:visited {
+        text-decoration:none;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+    }
+    
 
 .navbarflex {
 display:flex;
 }
+
+.container2 
+    {
+        display:flex;
+        height:90px;
+        padding:20px 50px;
+    }
+.midpage img{
+    background-image: 90%;
+    height:90px;
+    }
+
+    .container3 {
+        padding-top:140px;
+    }
+
+
+.container3 h1 {
+    text-align: center;
+    padding-bottom:17px;
+    color:black;
+    font-size:35px;
+    padding:0 20px 0 30px;
+}
+
+.footer {
+    color:black;
+    text-align:center;
+   
+}
+.col-sm-4{
+    justify-content:center;
+}
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

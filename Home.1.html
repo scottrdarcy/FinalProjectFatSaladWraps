@@ -3,10 +3,26 @@
 <html>
 
 <head>
-
     <title>FAT SALAD WRAPS</title>
     <link href="Home.1.css" rel="stylesheet"> 
-    <script src="special.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!--
+
+    <link rel="stylesheet"
+     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+     crossorigin="anonymous">
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"                     
+        crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+         crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="special.js"></script> -->
 
     <!--This is a work in progress -->
 
@@ -17,20 +33,15 @@
 
    <header>
         <div class="topheader"> FAT SALAD WRAPS </div> 
-        
-        <!--I would like to add a wrap later -->
+         <!--I would like to add a wrap later -->
        
-    
-        <div class="subheader">
-
+         <div class="subheader">
             <nav id="navbar">
                 <a href="Home.1.html">Home</a>
                 <a href="menu.1.html">Menu</a>
-                <a href="locations.html">Locations</a>
-                <a href="specialoffer.html">Special Offers</a>
                 <a href="contactus.html" style="word-spacing:.05px;">Contacts Us</a>    
             </nav>            
-        </div>
+         </div>
     </header>
    
     <main>
@@ -38,30 +49,85 @@
         <div class="slider">
 
         <figure>
-
             <div class="slide">
-            <img src="bowlofsalad.jpg"></div>
-
-            <div class="slide">
-            <img src="bowlofsalad2.jpg"></div>
-
-            <div class="slide">
-            <img src="menusalad1.jpg"></div>
-                            
-            <div class="slide">
-            <img src="menusalad2.jpg"></div>
+            <img src="menusalad3.jpg"></div>
 
             <div class="slide">
             <img src="menusalad3.jpg"></div>
 
+            <div class="slide">
+            <img src="menusalad3.jpg"></div>
+                            
+            <div class="slide">
+            <img src="menusalad3.jpg"></div>
+
+            <div class="slide">
+            <img src="menusalad3.jpg"></div>
         </figure>
         
         </div>   
 
+        <div class="homepageinfo">
+            <div class= "bothsides" id="left"> 
+        
+                <h1>About Us</h1>
+        
+                <h2>
+                    Fat Salad Wraps is the destination for the healty minded.  It is the best spot in 
+                    town for wraps, salads, soups, and juices.  We keep the freshest product and 
+                    make it our respsonibility to provide the healthiest ingredients but to keep our 
+                    patrons informed so that they could fully understand the benifits of eating healthy. 
+        
+                 </h2>   
+        
+            </div>
+        
+        
+            <div class="bothsides" id="right">
+        
+                <section>
+                    <h1>Sign Up for Special Offers!</h1>
+                    <h2>If you join our email list we will send you some excellent coupons.
+                        Save Money, Eat Healthy!</h2> <br>
+                </section>
+        
+                <div class="boxaroundform">
+        
+                    <form class="regform" action="Home.1.html" method="post"> <!--Need to finish PHP serverside-->   
+                    <h3>Name: </h3>
+                    <input type="text">
+                    <h3>Email: </h3>
+                    <input type="email">
+                    <h3>Zip Code: </h3>
+                    <input type="text">
+                    <h3>Favorite Salad Dressing: </h3>
+                    <input type="text">
+                    
+                    <input id="submit" type="submit"> 
+                    
+                    </form> 
+        
+                </div>
+        
+                <div>
+        
+                <ul class="specoff">
+                <li> Free Salad - Creat Your Own- Offer Expire 4/15/2019 </li>
+                <li> Free Salad - Take a Friend to Lunch - Offer Expires 4/15/2019 </li>
+                <li> Free Juice or Smoothie - Offer Expires 4/15/2019 </li>
+                </ul>
+                
+                </div>  
+        
+        </div>
+
+
+   <!--The dive "hide" will be hidden in full screen mode-->
+
    
-        <div class="homepageinfo"> 
+    <div class="hide">
     
-        <div class= "bothsides" id="left"> 
+        <div class= "aboutus"> 
 
             <h1>About Us</h1>
 
@@ -75,9 +141,7 @@
 
         </div>
 
-
-
-        <div class="bothsides" id="right">
+        <div class="signup">
 
             <section>
             <h1>Sign Up for Special Offers!</h1>
@@ -87,7 +151,11 @@
 
             <div class="boxaroundform">
 
-            <form class="regform" action="Home.1.html" method="post"> <!--Need to finish PHP serverside-->   
+            <form class="regform" action="Home.1.html" method="post"> --> <!--Need to finish PHP serverside-->  
+
+                
+
+
             <h3>Name: </h3>
             <input type="text">
             <h3>Email: </h3>
@@ -100,6 +168,8 @@
             <input id="submit" type="submit"> 
             </form> 
 
+            </div>
+         
         </div>
 
       
@@ -114,10 +184,14 @@
         
         </div>  
 
+
 </div>
 
 
-    </main>
+
+</main>
+
+
 
 <footer>
 
@@ -130,6 +204,21 @@
 
 
 <script src="special.js"></script>
+
+<!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+   
+   
+   <!--
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    -->
 
 </body>
 
