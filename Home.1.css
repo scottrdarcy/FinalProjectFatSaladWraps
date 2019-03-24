@@ -731,11 +731,13 @@ input {
 /*media queries for menu page*/
 
 
-/*
-@media screen and (min-width: 700px) {
+
+@media screen and (max-width: 700px) {
+
+
 
     .mainmenu { 
-        width: 80%;
+        width: 100%;
         margin-top: 19px;
         display: inline-block;
         text-align: center;
@@ -746,8 +748,8 @@ input {
         border: 4px double black;
         border-radius: 11%;
         margin-bottom: 14px;
-        padding-left:80px;
-        margin-left: 45px;
+        padding-left:200px;
+        margin-left: 65px;
         }
     #crpara {
         display:none; 
@@ -767,425 +769,309 @@ input {
         display:none;
     }
 
+    .label {
+        margin-top:200px;
+        text-align: center;
+        font-size: 30px;
+        color:white;
+        font-weight: 510;
+        background: green;
+        word-spacing: 7px;
+        padding:20px;
+        line-height: 40px;
+        border: 3px double black;
+        margin: 3px;
+        width:190%;
+       }
+       .bimg {
+        position:relative;
+        right:80px;
+        margin-top: 5px;
+        float:none;
+        padding: 2px;
+        margin-right:45px;
+     
     }
+
+    .disappear{
+        font-size:30px;
+        width:190%;
+    }
+
+    a {
+        font-size:45px;
+    }
+    .create { 
+        display:none;
+    }
+    #emptybowl {
+        position:relative;
+        right:50px;
+        padding-left:0px;
+    }
+
+    p #needtomove {
+        position: relative;
+        right:10px;
+
+    }
+
+    footer{
+        width:190%;
+        font:8px;
+    }
+
+    .menubottom {
+        display:none;
+    }
+
+
+
+    }
+
+
 
 
 
 /*
-
-.localfav {
-    font-size: 40px;
-    text-align:center;
-    padding-top:10px;
-}
-
-.movedown{
-    padding-top:183px;
-    margin-top:7px;
-}
-
-.label {
-    margin-top:200px;
-    text-align: center;
-    font-size: 30px;
-    color:white;
-    font-weight: 510;
-    background: green;
-    word-spacing: 9px;
-    padding:20px;
-    line-height: 40px;
-    border: 3px double black;
-    margin: 3px;
-   }
-
-
-
-.topmenu {
-    margin-top: 12px;
-   }
-
-
-
-
-
-.mainmenu img {
-    border: 3px solid black;
-    border-radius: 50%;
-    padding: 3px;
-    margin: 2px;
-    padding-left:20px;
-}
-
-.bimg {
-    margin-top: 20px;
-    float:left;
-    padding: 5px;
-    padding-left:23px;
-}
-
-.mainmenu button {
-    font-size: 20px;
-    padding:3%;
-}
-.line {
-    border-bottom: 3px double black;
-}
-
-
-.create {
-    display: inline-block;
-    width: 97%;
-    border: 4px double black;
-    border-radius: 11%;
-
-    text-align: center;
-    padding: 18px;
-    font-size: 21px;
-
-    margin: 17px 0px 14px 0px;
-}
-
-
-.l { 
-    width: 310px;
-    float: left;
-    margin-right: 50px;
-    margin-left:40px;
-    padding: 2 px;
-    vertical-align:top;
-}
-
-.l h3 {
-    font-size: 22px;
-}
-
-.middlecreateown {
-   align-content: center;
-}
-
-#crpara {
-    margin-top: 0;
-    text-align: left;
-    float:left;
-    padding: 25px;
-    border-bottom: 3px black solid;
-    margin-bottom: 10px;
-}
-
-.l p { 
-    position:relative;
-    padding-top:15px;
-    left:-20px;
-    
-}
-
-#needtomove {
- position: relative;
- left: -14px;
- margin-bottom:10px;
-    
-}
-
-.l img {
-    position:relative;
-    padding-left: 45px;
-    size: 50px;
-    left: -37px;
-}
-
-.l output {
-    position:relative;
-    left: -15px;
-}
-
-
-
-.layered {
-    position: absolute;
-    width: 280px;
-    height:345px;
-    border:3px double black;
-    color:black;
-    font-weight: 150;
-    text-align: center;
-    background-color:black;
-}
-
-
-.checkboxlist {
-
-    width: 280px;
-    font-size: 20px;
-    text-align:  left;
-    margin: 3px;
-    background-color:green;
-    color: black;
-    padding: 10px;
-    word-spacing: 5px;
-    margin-left: 24px;
-    left: 10 px ;
-    top: 15 px;
-    margin-top: px;
-    }
-
-input {
-    margin-left: 11px;
-}
-#submit { 
-
-}
-#checkbox h4 { 
-    font-size: 18px;
-    margin: 15px;
-    text-align: left;
-    color: black;
-}
-.menubottom h2 {
-    font-size:22px;
-    text-align: right;
-    letter-spacing: 0; 
-    padding-right: 260px;   
-}
-
-.delivery {
-    display: block;
-    align-content: center;
-    text-align: right;
-    padding-left: 360px;
-
-}
-
-.delivery form {
-    position:relative;
-    left:-150px;
-    font-size:20px;
-}
-
-}  */
-
-
 @media screen and (max-width: 700px) {
    
-.localfav {
-    font-size: 40px;
-    text-align:center;
-    padding-top:10px;
-}
-
-.movedown{
-    padding-top:183px;
-    margin-top:7px;
-}
-
-.label {
-    margin-top:200px;
-    text-align: center;
-    font-size: 30px;
-    color:white;
-    font-weight: 510;
-    background: green;
-    word-spacing: 9px;
-    padding:20px;
-    line-height: 40px;
-    border: 3px double black;
-    margin: 3px;
-   }
-
-
-
-.topmenu {
-    margin-top: 12px;
-   }
-
-.mainmenu { 
-    width: 97%;
-    margin-top: 19px;
-    display: inline-block;
-    text-align: center;
-    padding: 18px;
-    font-size: 21px;
-    color:green;
-    font-weight: 510;
-    border: 4px double black;
-    border-radius: 11%;
-    margin-bottom: 14px;
-    padding-left:10px;
+    .localfav {
+        font-size: 40px;
+        text-align:center;
+        padding-top:10px;
     }
-
-
-
-.mainmenu img {
-    border: 3px solid black;
-    border-radius: 50%;
-    padding: 3px;
-    margin: 2px;
-    padding-left:20px;
-}
-
-.bimg {
-    margin-top: 20px;
-    float:left;
-    padding: 5px;
-    padding-left:23px;
-}
-
-.mainmenu button {
-    font-size: 20px;
-    padding:3%;
-}
-.line {
-    border-bottom: 3px double black;
-}
-
-
-.create {
-    display: inline-block;
-    width: 97%;
-    border: 4px double black;
-    border-radius: 11%;
-
-    text-align: center;
-    padding: 18px;
-    font-size: 21px;
-
-    margin: 17px 0px 14px 0px;
-}
-
-
-.l { 
-    width: 310px;
-    float: left;
-    margin-right: 50px;
-    margin-left:40px;
-    padding: 2 px;
-    vertical-align:top;
-}
-
-.l h3 {
-    font-size: 22px;
-}
-
-.middlecreateown {
-   align-content: center;
-}
-
-#crpara {
-    margin-top: 0;
-    text-align: left;
-    float:left;
-    padding: 25px;
-    border-bottom: 3px black solid;
-    margin-bottom: 10px;
-}
-
-.l p { 
-    position:relative;
-    padding-top:15px;
-    left:-20px;
     
-}
-
-#needtomove {
- position: relative;
- left: -14px;
- margin-bottom:10px;
-    
-}
-
-.l img {
-    position:relative;
-    padding-left: 45px;
-    size: 50px;
-    left: -37px;
-}
-
-.l output {
-    position:relative;
-    left: -15px;
-}
-
-
-
-.layered {
-    position: absolute;
-    width: 280px;
-    height:345px;
-    border:3px double black;
-    color:black;
-    font-weight: 150;
-    text-align: center;
-    background-color:black;
-}
-
-
-.checkboxlist {
-
-    width: 280px;
-    font-size: 20px;
-    text-align:  left;
-    margin: 3px;
-    background-color:green;
-    color: black;
-    padding: 10px;
-    word-spacing: 5px;
-    margin-left: 24px;
-    left: 10 px ;
-    top: 15 px;
-    margin-top: px;
+    .movedown{
+        padding-top:183px;
+        margin-top:7px;
     }
+    
+    
+    
+    .topmenu {
+        margin-top: 12px;
+       }
+    
+    .mainmenu { 
+        width: 100%;
+        margin:5px
+        display: inline-block;
+        text-align: center;
+        padding: 18px 18px 18px 18px;
+        font-size: 21px;
+        color:green;
+        font-weight: 510;
+        border: 4px double black;
+        border-radius: 11%;
+        margin-bottom: 14px;
+       
+      
+        }
+    
+    
+    
+    .mainmenu img {
+        border: 3px solid black;
+        border-radius: 50%;   
+        
+    }
+    
+    
+    
+    .disappear {
+        display:none;
+    }
+    
+    .mainmenu button {
+        font-size: 20px;
+        padding:3%;
+    }
+    .line {
+        border-bottom: 3px double black;
+    }
+    
+    
+    .create {
+        display: inline-block;
+        width: 97%;
+        border: 4px double black;
+        border-radius: 11%;
+    
+        text-align: center;
+        padding: 18px;
+        font-size: 21px;
+    
+        margin: 17px 0px 14px 0px;
+    }
+    
+    
+    .l { 
+        width: 310px;
+        float: left;
+        margin-right: 50px;
+        margin-left:40px;
+        padding: 2 px;
+        vertical-align:top;
+    }
+    
+    .l h3 {
+        font-size: 22px;
+    }
+    
+    .middlecreateown {
+       align-content: center;
+    }
+    
+    #crpara {
+        margin-top: 0;
+        text-align: left;
+        float:left;
+        padding: 25px;
+        border-bottom: 3px black solid;
+        margin-bottom: 10px;
+    }
+    
+    .l p { 
+        position:relative;
+        padding-top:15px;
+        left:-20px;
+        
+    }
+    
+   
+        
+    }
+    
+    .l img {
+        position:relative;
+        padding-left: 45px;
+        size: 50px;
+        left: -37px;
+    }
+    
+    .l output {
+        position:relative;
+        left: -15px;
+    }
+    
+    
+    
+    .layered {
+        position: absolute;
+        width: 280px;
+        height:345px;
+        border:3px double black;
+        color:black;
+        font-weight: 150;
+        text-align: center;
+        background-color:black;
+    }
+    
+    
+    .checkboxlist {
+    
+        width: 280px;
+        font-size: 20px;
+        text-align:  left;
+        margin: 3px;
+        background-color:green;
+        color: black;
+        padding: 10px;
+        word-spacing: 5px;
+        margin-left: 24px;
+        left: 10 px ;
+        top: 15 px;
+        margin-top: px;
+        }
+    
+    input {
+        margin-left: 11px;
+    }
+    #submit { 
+    
+    }
+    #checkbox h4 { 
+        font-size: 18px;
+        margin: 15px;
+        text-align: left;
+        color: black;
+    }
+    .menubottom h2 {
+        font-size:22px;
+        text-align: right;
+        letter-spacing: 0; 
+        padding-right: 260px;   
+    }
+    
+    .delivery {
+        display: block;
+        align-content: center;
+        text-align: right;
+        padding-left: 360px;
+    
+    }
+    
+    .delivery form {
+        position:relative;
+        left:-150px;
+        font-size:20px;
+    }
+    
+    /*media queries for menu page*/
+    
+    
+    
+    
+    
+    /*
+    
+    @media screen and (max-width: 700px) {
+    
+        .mainmenu { 
+            width: 100%;
+            margin-top: 19px;
+            display: inline-block;
+            text-align: center;
+            padding: 18px;
+            font-size: 21px;
+            color:green;
+            font-weight: 510;
+            border: 4px double black;
+            border-radius: 11%;
+            margin-bottom: 14px;
+            padding-left:80px;
+            margin-left: 45px;
+            }
+        #crpara {
+            display:none; 
+        }
+    
+        .disappear{
+            display:grid;
+            justify-content: center;  
+            font-size: 12px; 
+    
+        }
+    
+        .l h3 {
+            justify-content:center;
+        }
+        .localfav{
+            display:none;
+        }
+        .create {
 
-input {
-    margin-left: 11px;
-}
-#submit { 
+            
+        }
+    
+        }
+    
+    
 
-}
-#checkbox h4 { 
-    font-size: 18px;
-    margin: 15px;
-    text-align: left;
-    color: black;
-}
-.menubottom h2 {
-    font-size:22px;
-    text-align: right;
-    letter-spacing: 0; 
-    padding-right: 260px;   
-}
 
-.delivery {
-    display: block;
-    align-content: center;
-    text-align: right;
-    padding-left: 360px;
 
-}
 
-.delivery form {
-    position:relative;
-    left:-150px;
-    font-size:20px;
-}
-
-}
-
-/*
-
-#d1 {
-    background-color:yellow;
-    left:;
-    top:;
-}
-#d2 {
-    background-color:yellow:
-    left:;
-    top:;
-}
-#d3 {
-    background-color:yellow:
-    left:;
-    top:;
-}
 
 
 /*media queries for menu page*/

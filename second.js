@@ -1,4 +1,10 @@
 
+
+/*  This was an attempt to put together a fucntion for customizing the salad selection picture, I realized
+I was over my head at the moment of attempting this, but I wanted to demonstrate that I gave it a shot
+this is one of several attempts
+
+
 var lettuce;
 var xLettuce;
 var Onion;
